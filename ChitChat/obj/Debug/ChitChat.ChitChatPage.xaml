@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ChitChat" x:Class="ChitChat.ChitChatPage">
+	<ContentPage.Padding>
+		<OnPlatform x:TypeArguments ="Thickness" iOS="0,20,0,0"></OnPlatform>
+	</ContentPage.Padding>
+	<StackLayout>
+		<Entry x:Name="msg"></Entry>
+		<Button Clicked="Push_MSG" Text="Send"></Button>
+		<Frame VerticalOptions="FillAndExpand" OutlineColor="Black">
+			<ScrollView x:Name="scrol">
+				<StackLayout x:Name="room"></StackLayout>
+			</ScrollView>
+		</Frame>
+	</StackLayout>
+</ContentPage>
