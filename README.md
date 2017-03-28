@@ -12,7 +12,7 @@ If there are problems with the websocket packages. Please try manually installin
 Also be wary that there are 2 Websockets.Pcl on Nuget, so get the more recent one with Mr. Ventimiglia's face on it. 
 
 ### License
-This project is licensed under the MIT License.
+This project is licensed under the MIT [License](https://github.com/qedseung/ChitChat/blob/master/License).
 
 ### Acknowledgements
 - Thanks to Mr. Ventimiglia for developing the only Websocket PCL that I could get installed with Xamarin Forms
